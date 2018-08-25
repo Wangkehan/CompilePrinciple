@@ -1,0 +1,28 @@
+/*asd
+qwret
+qw113*/
+int x[10];
+void sort(int a[],int low,int high)
+{
+	int i;
+	int k;
+	i=low;
+	while(i<high-1)
+	{
+		if(i>k)
+			a[k]=a[k]+1;
+		i=i+1;
+	}
+}
+int main(void)
+{
+	int i;
+	i=0;
+	while(i<10)
+	{
+		x[i]=input;
+		i=i+1;
+	}
+	sort(x,0,10);
+	return 0;
+}
